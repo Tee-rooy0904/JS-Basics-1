@@ -1,8 +1,10 @@
-const elementTxt = document.getElementById("elements");
-const sumTxt = document.getElementById("sum");
+let elementTxt = document.getElementById("elements");
+let numbInput = document.getElementById("numbInput")
+let sumTxt = document.getElementById("sum");
+let highTxt = document.getElementById("high")
+let lowTxt = document.getElementById("low")
 
 let arr = [];
-let sum = 0;
 
 arr.push(23);
 arr.push(55);
